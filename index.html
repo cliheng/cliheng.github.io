@@ -1,0 +1,431 @@
+HTML
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张三 - AI开发工程师</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">张<span>三</span></a>
+                <ul class="nav-links">
+                    <li><a href="#hero">首页</a></li>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#experience">专业经历</a></li>
+                    <li><a href="#skills">技能</a></li>
+                    <li><a href="#projects">项目</a></li>
+                    <li><a href="#education">教育背景</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 首屏展示 -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>我是<span>张三</span></h1>
+                <h2>AI开发工程师</h2>
+                <p>全栈开发者，3年Web开发经验，精通React与Node.js，主导过日均10万PV的电商平台开发，擅长复杂业务场景的技术方案设计。</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn">联系我</a>
+                    <a href="#projects" class="btn btn-outline">查看项目</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="开发者工作场景">
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>关于我</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="张三的照片">
+                </div>
+                <div class="about-text">
+                    <h3>AI开发工程师 & 全栈开发者</h3>
+                    <p>我是一名专注于AI和Web开发的工程师，拥有丰富的项目经验和扎实的技术功底。我热衷于通过技术创新解决实际问题，并不断提升自己的技术能力。</p>
+                    <p>在过去的项目中，我成功领导团队完成了多个复杂系统的开发，从需求分析到架构设计，再到实现和部署，积累了全流程的开发经验。</p>
+                    <ul class="info-list">
+                        <li><strong>电话:</strong> +86 123-4567-8901</li>
+                        <li><strong>邮箱:</strong> zhangsan@email.com</li>
+                        <li><strong>地址:</strong> 北京市海淀区</li>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/zhangsan" target="_blank">github.com/zhangsan</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 专业经历 -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>专业经历</h2>
+            </div>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <span class="experience-date">2021.07 - 至今</span>
+                    <h3 class="experience-company">字节跳动</h3>
+                    <h4 class="experience-position">高级前端工程师</h4>
+                    <ul>
+                        <li>负责抖音商家后台系统重构，提升页面加载速度40%</li>
+                        <li>主导React组件库建设，减少重复代码量70%</li>
+                        <li>优化前端性能，实现首屏渲染时间减少30%</li>
+                        <li>引入TypeScript提升代码质量和开发效率</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <span class="experience-date">2019.06 - 2021.06</span>
+                    <h3 class="experience-company">某科技公司</h3>
+                    <h4 class="experience-position">前端开发工程师</h4>
+                    <ul>
+                        <li>参与公司核心产品的开发与维护</li>
+                        <li>实现响应式设计，提升移动端用户体验</li>
+                        <li>开发可复用的UI组件，提升团队开发效率</li>
+                        <li>参与技术分享，推动团队技术成长</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>我的技能</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> 技术技能</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Node.js</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>TypeScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Webpack</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> AI相关</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>机器学习</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>深度学习</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>TensorFlow</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>PyTorch</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-language"></i> 语言能力</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>英语</span>
+                            <span>CET-6</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>日语</span>
+                            <span>N2</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>项目展示</h2>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="电商中台系统">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">电商中台系统</h3>
+                        <p class="project-description">采用微前端架构整合5个子系统，支持500+商家的供应链管理，日均处理订单10万+。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">微前端</span>
+                            <span class="tech-tag">TypeScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="AI推荐系统">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">AI推荐系统</h3>
+                        <p class="project-description">基于深度学习的个性化推荐系统，提升用户点击率35%，转化率25%。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">推荐算法</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="数据分析平台">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">数据分析平台</h3>
+                        <p class="project-description">可视化数据分析平台，支持实时数据处理和大规模数据可视化展示。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">大数据</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育背景 -->
+    <section id="education">
+        <div class="container">
+            <div class="section-title">
+                <h2>教育背景</h2>
+            </div>
+            <div class="education-list">
+                <div class="education-item">
+                    <div class="education-date">2018.09 - 2021.06</div>
+                    <div class="education-content">
+                        <h3 class="education-degree">计算机科学与技术 硕士</h3>
+                        <h4 class="education-school">清华大学</h4>
+                        <p>相关课程：数据结构、分布式系统、机器学习、人工智能、计算机视觉</p>
+                        <p>毕业论文：《基于深度学习的图像识别算法优化研究》</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-date">2014.09 - 2018.06</div>
+                    <div class="education-content">
+                        <h3 class="education-degree">软件工程 学士</h3>
+                        <h4 class="education-school">北京大学</h4>
+                        <p>相关课程：算法设计与分析、操作系统、数据库系统、Web开发</p>
+                        <p>毕业论文：《基于React的前端性能优化研究》</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 证书与奖项 -->
+    <section id="certificates">
+        <div class="container">
+            <div class="section-title">
+                <h2>证书与奖项</h2>
+            </div>
+            <div class="certificates-container">
+                <div class="certificate-item">
+                    <i class="fas fa-award"></i>
+                    <h3>阿里云ACE认证</h3>
+                    <p>2022年获得阿里云高级工程师认证</p>
+                </div>
+                <div class="certificate-item">
+                    <i class="fas fa-trophy"></i>
+                    <h3>公司年度技术之星</h3>
+                    <p>2023年获得字节跳动年度技术之星称号</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>联系方式</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>电话</h3>
+                            <p>+86 123-4567-8901</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>邮箱</h3>
+                            <p>zhangsan@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>地址</h3>
+                            <p>北京市海淀区</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <p><a href="https://github.com/zhangsan" target="_blank">github.com/zhangsan</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="您的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="主题">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="您的留言" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">张<span>三</span></a>
+                <ul class="footer-links">
+                    <li><a href="#hero">首页</a></li>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#experience">专业经历</a></li>
+                    <li><a href="#skills">技能</a></li>
+                    <li><a href="#projects">项目</a></li>
+                    <li><a href="#education">教育背景</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                </ul>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/zhangsan" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; 2023 张三. 保留所有权利.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <a href="#hero" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
